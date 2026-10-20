@@ -25,6 +25,7 @@ The aim is to identify meaningful differences in readmission rates that may warr
 
 - MySQL 8.0: Data cleaning, cohort preparation, and analysis.
 - MySQL Workbench: Writing and executing SQL queries.
+- Microsoft Excel 2021
 
 ## Methodology
 
