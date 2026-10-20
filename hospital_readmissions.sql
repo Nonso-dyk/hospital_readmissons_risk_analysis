@@ -267,6 +267,20 @@ FROM diabetic_data_dedup
 GROUP BY number_inpatient
 ORDER BY number_inpatient ;
 
+-- Grouping number of inpatient visits and comparing the readmission rates
+ SELECT
+    CASE
+        WHEN number_inpatient = 0 THEN '0 visits'
+        WHEN number_inpatient BETWEEN 1 AND 3 THEN '1-3 visits'
+        ELSE '>3 visits'
+    END AS inpatient_visit_group,
+    COUNT(*) AS total_encounters,
+    SUM(readmitted = '<30') AS early_readmissions,
+    ROUND(SUM(readmitted = '<30') / COUNT(*) * 100,1) AS early_readmission_rate
+FROM diabetic_data_dedup
+GROUP BY inpatient_visit_group
+ORDER BY inpatient_visit_group ;
+
 
  -- ------------------------------------------------------------
  -- 3.4 Exploring the relationship of clinical characteristic variables
