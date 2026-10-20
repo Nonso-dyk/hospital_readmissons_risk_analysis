@@ -312,6 +312,7 @@ SELECT
     ROUND(AVG(early_readmissions)*100,1) AS readmission_rate_pct
 FROM diag_recategorized
 GROUP BY diagnostic_categories
+HAVING COUNT(*) > 100
 ORDER BY readmission_rate_pct DESC;
 
 -- Relationship of number of diagnosis with readmission rate
