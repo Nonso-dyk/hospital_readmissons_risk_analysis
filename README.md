@@ -54,16 +54,16 @@ The findings show associations in the data and should not be interpreted as evid
 ## Key Findings
 
 - Overall Readmission: Of the 69,198 encounters analysed, 9.0% involved readmission within 30 days, while 31.7% involved readmission after 30 days.
-- Previous Hospital Utilisation: Early readmission rates were higher among encounters with previous inpatient visits. The rate was 8.1% among encounters with no previous inpatient visits, compared with 18.9% among those with two previous visits and 23.1% among those with three.
+- Previous Hospital Utilisation: Early readmission rates increased with the number of previous inpatient visits. The rate was 8.1% among encounters with no previous inpatient visits, rising to 18.9% among those with two previous visits and 23.1% among those with three. When grouped, the rate was 8.1% for encounters with no previous visits, 14.8% for those with 1–3 previous visits, and 28.3% for those with more than three previous visits. The last group contained only 424 encounters, so its rate should be interpreted with some caution.
 - Age: Early readmission rates were generally higher among older patients, reaching 10.8% among those aged 80–89, compared with 7.1% among those aged 50–59.
-- Discharge Destination: Early readmission rates varied by destination: 6.9% for patients discharged home, 13.5% for transfers to skilled nursing facilities, and 27.7% for transfers to rehabilitation facilities.
-- Primary Diagnosis: Encounters with a primary diagnosis in the circulatory disease category had an early readmission rate of 9.7%, compared with 9.2% for diabetes, 8.3% for respiratory diseases, and 8.0% for digestive diseases.
+- Discharge Destination: Early readmission rates varied by discharge destination. The highest rate was observed among encounters discharged or transferred to another rehabilitation facility (27.7%; 393 of 1,418 encounters), followed by transfers to other inpatient care institutions (20.7%; 188 of 910) and skilled nursing facilities (13.5%; 1,180 of 8,744). Encounters discharged home had a lower rate of 6.9% (3,039 of 43,986). Only destinations with at least 100 encounters were included in this comparison. These findings are descriptive and may reflect differences in patients' clinical needs and severity of illness.
+- Primary Diagnosis: Early readmission rates varied across primary diagnosis categories. Injury and Poisoning had the highest rate at 11.0% (518 of 4,713 encounters), followed by circulatory diseases at 9.7% (2,079 of 21,365) and diabetes at 9.2% (527 of 5,756). Respiratory and digestive diseases had lower rates of 8.3% and 8.0%, respectively.
 
 ## Recommendations
 
-- Consider previous inpatient utilisation when identifying patients who may benefit from closer follow-up after discharge.
-- Investigate whether differences in patient needs, discharge planning, and post-discharge support help explain variation in readmission rates across discharge destinations.
-- Further examine readmission patterns among patients with circulatory diagnoses and diabetes to identify areas for more detailed clinical analysis.
+- - Consider previous inpatient utilisation when identifying patients who may benefit from closer follow-up after discharge, particularly those with multiple prior inpatient visits.
+- Investigate whether differences in patient needs, illness severity, discharge planning, and post-discharge support contribute to the higher readmission rates observed among patients transferred to rehabilitation and other inpatient care facilities.
+- Further examine early readmission patterns among patients with Injury and Poisoning diagnoses, followed by circulatory diseases and diabetes, to identify potential areas for more detailed clinical analysis.
 
 These are potential areas for further investigation, not interventions proven effective by this analysis.
 
@@ -73,6 +73,6 @@ These are potential areas for further investigation, not interventions proven ef
 - Cohort Selection: The analysis retains the first recorded encounter per patient. This affects the population being studied and limits how the findings can be generalised to all hospital encounters.
 - Group Sizes: Some categories contain relatively few encounters, making their readmission rates less stable and less suitable for direct comparison with larger groups.
 - Missing Data: Some variables contain substantial missing or unrecorded information, which may limit the analysis of certain clinical factors.
-- Diagnostic Grouping: Primary diagnoses were grouped into broad categories, which may conceal differences between individual conditions. The diagnostic category totals also require reconciliation with the overall analysis cohort.
+- Diagnostic Grouping: Primary diagnoses were grouped into broad categories, which may conceal differences between individual conditions. 
 - Confounding Factors: The analysis does not establish whether the observed associations persist after accounting for other patient, clinical, or hospital-level factors.
 
